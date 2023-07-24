@@ -1,0 +1,101 @@
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+  
+    background: #3C3C3B;
+        box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 580px;
+        height: 520px;
+}
+
+.carousel-container {
+    overflow: hidden;
+    max-width: 100%;
+  
+    margin: 0 auto;
+    cursor: grab;
+}
+
+.carousel-slider {
+    display: flex;
+   
+    margin: 0 -5px;
+   
+    transition: transform 0.3s ease-in-out;
+    user-select: none;
+}
+
+.carousel-slider img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    margin: 5px;
+    cursor: grab;
+}
+
+.modal-content .try-for-free-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #FA9D7E;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 40px;
+        box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+}
+
+.modal-content p {
+    margin-top: 10px;
+}
+
+.modal-content .close-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+h2{
+    color:  #EA785F;
+        text-align: center;
+        /* Small/H2 Averta */
+        font-family: Averta;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+}
+h3{
+    color:  #FFF;
+        text-align: center;
+        /* Small/H4 */
+        font-family: Averta;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        /* 125% */
+        letter-spacing: 2px;
+        text-transform: uppercase;
+}
